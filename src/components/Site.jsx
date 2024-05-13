@@ -14,7 +14,7 @@ const siteText = [
   },
   {
     text:["Make","site compliant with","react.js"],
-    title:"eact를 이용한 사이트 제작",
+    title:"React를 이용한 사이트 제작",
     code:"https://port2023vite.netlify.app",
     view:"https://port2023vite.netlify.app",
     info:[

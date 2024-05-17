@@ -1,52 +1,6 @@
 import React from "react"
+import {siteText} from "../constants";
 
-const siteText = [
-  {
-    text:["Make","site compliant with","webstandard"],
-    title:"Vite를 이용한 사이트 제작",
-    code:"https://port2023vite.netlify.app",
-    view:"https://port2023vite.netlify.app",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : vue.js, html5/css3, CSS Variable, Vite"
-    ],
-  },
-  {
-    text:["Make","site compliant with","react.js"],
-    title:"React를 이용한 사이트 제작",
-    code:"https://port2023vite.netlify.app",
-    view:"https://port2023vite.netlify.app",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : React.js,  html5/css3, CSS Variable, React"
-    ],
-  },
-  {
-    text:["Make","site compliant with","vue.js"],
-    title:"Vue를 이용한 사이트 제작",
-    code:"https://port2023vite.netlify.app",
-    view:"https://port2023vite.netlify.app",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : Vue.js, html5/css3, CSS Variable, Vue"
-    ],
-  },
-  {
-    text:["Make","site compliant with","next.js"],
-    title:"NEXT를 이용한 사이트 제작",
-    code:"https://port2023vite.netlify.app",
-    view:"https://port2023vite.netlify.app",
-    info:[
-      "site coding",
-      "production period : two days",
-      "use stack : NEXT.js, html5/css3, CSS Variable"
-    ],
-  },
-
-]
 
 const Site = () => {
   return (

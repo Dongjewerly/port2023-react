@@ -1,11 +1,7 @@
-import React from "react"
+import React from "react";
 import dongseok from "../assets/img/dongseok.jpg";
+import {introText} from "../constants";
 
-const introText = {
-  title: "port developer" ,
-  desc: ["tlaent is", "found at the end of the", "effort" ],
-
-};
 
 const Intro = () => {
   return (

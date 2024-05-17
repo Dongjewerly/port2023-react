@@ -24,8 +24,6 @@ const HomeView = () => {
             <Contact />
         </Main>
         <Footer />
-
-
     </div>
   );
 }

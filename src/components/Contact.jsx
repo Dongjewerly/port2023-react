@@ -1,14 +1,5 @@
 import React from "react";
-const contactText = [
-    {
-        link:"https://blog.naver.com/dongseog_you/223434116836",
-        title:"KAKAO : DongSeok, Yu",
-    },
-    {
-        link:"https://blog.naver.com/dongseog_you/223434116836",
-        title:"NAVER : dongseog_you@naver.com",
-    }
-]; 
+import { contactText } from "../constants";
 
 const Contact = () => {
   return (

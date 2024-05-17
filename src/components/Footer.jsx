@@ -1,36 +1,5 @@
 import React from "react";
-const footerText = [
-  {
-    title:"NAVER",
-    desc:"네이버블로그에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link:"https://blog.naver.com/dongseog_you/223434116836",
-  },
-  {
-    title:"NAVER",
-    desc:"네이버블로그에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link:"https://blog.naver.com/dongseog_you/223434116836",
-  },
-  {
-    title:"NAVER",
-    desc:"네이버블로그에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link:"https://blog.naver.com/dongseog_you/223434116836",
-  },
-  {
-    title:"NAVER",
-    desc:"네이버블로그에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link:"https://blog.naver.com/dongseog_you/223434116836",
-  },
-  {
-    title:"NAVER",
-    desc:"네이버블로그에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link:"https://blog.naver.com/dongseog_you/223434116836",
-  },
-  {
-    title:"NAVER",
-    desc:"네이버블로그에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link:"https://blog.naver.com/dongseog_you/223434116836",
-  },  
-];
+import { footerText } from "../constants";
 
 const Footer = () => {
   return (

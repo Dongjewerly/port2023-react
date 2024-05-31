@@ -2,7 +2,7 @@
     @include position-fixed;
     z-index: 10000;
 }
-.header__inner {
+.header_inner {
     @include flex-between;
     background-color: rgba(116,99,99,0.1);
     backdrop-filter: blur(15px);
@@ -24,7 +24,7 @@
         @media(max-width:800px){
             display: none;
 
-            &show{
+            &.show{
                 display: block;
 
                 ul{
@@ -49,10 +49,10 @@
                     }
                 }
             }
-            &.show+.header__nav__mobile span::before {
+            &.show+.header_nav_mobile span::before {
                 width: 20px;
             }
-            &.show + .header__nav__mobile span::after {
+            &.show + .header_nav_mobile span::after {
                 width: 20px;
             }
         }
@@ -85,7 +85,7 @@
         }
 
     }
-    .header__nav__mobile {
+    .header_nav_mobile {
         display: none;
         width: 40px;
         height: 40px;

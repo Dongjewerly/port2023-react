@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header id="header" role="banner">
-      <div className="header__inner">
+      <div className="header_inner">
         <div className="header_logo">
           <a href="/">portfolio<em>React.js</em></a>
         </div>
@@ -27,7 +27,7 @@ const Header = () => {
           </ul>
         </nav>
         <div
-          className="header__nav__mobile"
+          className="header_nav_mobile"
           id="headerToggle"
           aria-controls="primary-menu"
           aria-expanded={show ? "true" : "false"}
